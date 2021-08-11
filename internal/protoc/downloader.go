@@ -38,10 +38,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AYaro/prototool/internal/file"
+	"github.com/AYaro/prototool/internal/settings"
+	"github.com/AYaro/prototool/internal/vars"
 	"github.com/gofrs/flock"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/settings"
-	"github.com/uber/prototool/internal/vars"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )

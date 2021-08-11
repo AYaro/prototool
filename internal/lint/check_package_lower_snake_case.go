@@ -23,9 +23,9 @@ package lint
 import (
 	"strings"
 
+	"github.com/AYaro/prototool/internal/strs"
+	"github.com/AYaro/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
 )
 
 var packageLowerSnakeCaseLinter = NewLinter(

@@ -23,8 +23,8 @@ package breaking
 import (
 	"fmt"
 
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/text"
+	"github.com/AYaro/prototool/internal/extract"
+	"github.com/AYaro/prototool/internal/text"
 )
 
 func forEachPackagePair(

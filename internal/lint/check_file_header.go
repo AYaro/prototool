@@ -24,7 +24,7 @@ import (
 	"strings"
 	"text/scanner"
 
-	"github.com/uber/prototool/internal/text"
+	"github.com/AYaro/prototool/internal/text"
 )
 
 var fileHeaderLinter = NewLinter(

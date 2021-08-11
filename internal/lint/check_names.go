@@ -25,9 +25,9 @@ import (
 	"strings"
 	"text/scanner"
 
+	"github.com/AYaro/prototool/internal/file"
+	"github.com/AYaro/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/text"
 )
 
 var (

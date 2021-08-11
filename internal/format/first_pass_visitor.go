@@ -23,9 +23,9 @@ package format
 import (
 	"sort"
 
+	"github.com/AYaro/prototool/internal/protostrs"
+	"github.com/AYaro/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/protostrs"
-	"github.com/uber/prototool/internal/text"
 )
 
 var _ proto.Visitor = &firstPassVisitor{}

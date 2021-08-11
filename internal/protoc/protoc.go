@@ -21,10 +21,10 @@
 package protoc
 
 import (
+	"github.com/AYaro/prototool/internal/file"
+	"github.com/AYaro/prototool/internal/settings"
+	"github.com/AYaro/prototool/internal/text"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/settings"
-	"github.com/uber/prototool/internal/text"
 	"go.uber.org/zap"
 )
 
